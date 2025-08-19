@@ -32,7 +32,7 @@ Calorie Adventure is an innovative augmented reality (AR) fitness game designed 
 - Parents and healthcare providers looking for fun exercise solutions
 
 ## Development Status
-Currently in active development - contributions welcome!
+Have published the v1.0
 
 ## Getting Started
 To try the development version:

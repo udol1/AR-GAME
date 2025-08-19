@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <public type="id" name="__arcore_cancelButton" id="2130771968" />
+    <public type="id" name="__arcore_continueButton" id="2130771969" />
+    <public type="id" name="__arcore_messageText" id="2130771970" />
+    <public type="layout" name="__arcore_education" id="2130837504" />
+    <public type="mipmap" name="app_icon" id="2130903040" />
+    <public type="mipmap" name="app_icon_round" id="2130903041" />
+    <public type="raw" name="keep_arcore" id="2130968576" />
+    <public type="string" name="__arcore_cancel" id="2131034112" />
+    <public type="string" name="__arcore_continue" id="2131034113" />
+    <public type="string" name="__arcore_install_app" id="2131034114" />
+    <public type="string" name="__arcore_install_feature" id="2131034115" />
+    <public type="string" name="__arcore_installing" id="2131034116" />
+    <public type="string" name="app_name" id="2131034117" />
+    <public type="string" name="game_view_content_description" id="2131034118" />
+    <public type="style" name="BaseUnityTheme" id="2131099648" />
+    <public type="style" name="UnityThemeSelector" id="2131099649" />
+    <public type="style" name="UnityThemeSelector.Translucent" id="2131099650" />
+</resources>

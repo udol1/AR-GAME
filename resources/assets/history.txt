@@ -1,0 +1,1 @@
+{"allHistory":[{"kaluli":3.97954082,"miShu":53.46},{"kaluli":3.978721,"miShu":53.46},{"kaluli":3.97841287,"miShu":53.46},{"kaluli":2.98441458,"miShu":53.46}]}

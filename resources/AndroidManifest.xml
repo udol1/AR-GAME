@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="100001" android:versionName="0.1" android:installLocation="internalOnly" android:compileSdkVersion="28" android:compileSdkVersionCodename="9" package="com.ttt.ArCoreTest" platformBuildVersionCode="28" platformBuildVersionName="9">
+    <uses-sdk android:minSdkVersion="24" android:targetSdkVersion="28"/>
+    <supports-screens android:anyDensity="true" android:smallScreens="true" android:normalScreens="true" android:largeScreens="true" android:xlargeScreens="true"/>
+    <uses-feature android:glEsVersion="20000"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE"/>
+    <uses-feature android:name="android.hardware.touchscreen" android:required="false"/>
+    <uses-feature android:name="android.hardware.touchscreen.multitouch" android:required="false"/>
+    <uses-feature android:name="android.hardware.touchscreen.multitouch.distinct" android:required="false"/>
+    <queries>
+        <package android:name="com.google.ar.core"/>
+    </queries>
+    <uses-feature android:name="android.hardware.camera.ar" android:required="true"/>
+    <application android:theme="@style/UnityThemeSelector" android:label="@string/app_name" android:icon="@mipmap/app_icon" android:extractNativeLibs="false">
+        <activity android:label="@string/app_name" android:name="com.unity3d.player.UnityPlayerActivity" android:launchMode="singleTask" android:screenOrientation="sensorLandscape" android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|layoutDirection|fontScale" android:hardwareAccelerated="false">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <meta-data android:name="unityplayer.UnityActivity" android:value="true"/>
+        </activity>
+        <meta-data android:name="unity.tango-enable" android:value="true"/>
+        <meta-data android:name="unityplayer.SkipPermissionsDialog" android:value="true"/>
+        <meta-data android:name="unity.build-id" android:value="27eae59f-bd22-4b5f-b9be-64a181b263a3"/>
+        <meta-data android:name="unity.splash-mode" android:value="0"/>
+        <meta-data android:name="unity.splash-enable" android:value="true"/>
+        <meta-data android:name="com.google.ar.core.min_apk_version" android:value="210910000"/>
+        <activity android:theme="@style/Theme.Material.Light.Dialog.Alert" android:name="com.google.ar.core.InstallActivity" android:exported="false" android:excludeFromRecents="true" android:launchMode="singleTop" android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <meta-data android:name="com.google.ar.core" android:value="required"/>
+    </application>
+</manifest>
